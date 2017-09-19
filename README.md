@@ -5,15 +5,15 @@ Nodejs application for loading data from gdoc to json file
 
 ####Docker run
 
-  docker build -t  opetstudio/erevna_dictionary_locationdata_loader:version1.0.0 .
+  docker build -t  opetstudio/erevna-google-spreadsheet-loader:version1.0.0 .
 
 ####Docker pull command
 
-  docker pull opetstudio/erevna_dictionary_locationdata_loader
+  docker pull opetstudio/erevna-google-spreadsheet-loader
 
 ####Docker start/stop
 
-  docker run -d -p 4000:8080 opetstudio/erevna_dictionary_locationdata_loader:version1.0.0
+  docker run -d -p 4000:8080 opetstudio/erevna-google-spreadsheet-loader:version1.0.0
 
   docker container stop <hash>           # Gracefully stop the specified container
 
