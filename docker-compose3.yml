@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    volumes:
+      - ~/Data/mongodb:/data/db
+    ports:
+      - "27017:27017"
+  web:
+    build: .
+    ports:
+      - "4000:8080"
+    links:
+      - mongo

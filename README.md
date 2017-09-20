@@ -11,6 +11,19 @@ Nodejs application for loading data from gdoc to json file
 
   docker pull opetstudio/erevna-google-spreadsheet-loader
 
+####Docker compose build and run
+  docker-compose up --build
+
+####Docker compose build
+
+  docker-compose build
+
+####Docker compose run/stop
+
+  docker-compose up
+
+  docker-compose stop
+
 ####Docker start/stop
 
   docker run -d -p 4000:8080 opetstudio/erevna-google-spreadsheet-loader:version1.0.0
