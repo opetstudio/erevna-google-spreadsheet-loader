@@ -37,3 +37,4 @@ app/webapp/.sass-cache
 test/*.json
 public/*.xml
 service-account-creds.json
+README_LOCAL.md
