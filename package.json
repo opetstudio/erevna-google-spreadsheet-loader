@@ -1,6 +1,6 @@
 {
   "name": "erevna-google-spreadsheet-loader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "erevna api Node.js on Docker",
   "author": "opetstudio@gmail.com",
   "main": "server.js",
