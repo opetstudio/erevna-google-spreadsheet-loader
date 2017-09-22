@@ -47,3 +47,7 @@ Nodejs application for loading data from gdoc to json file
 ####Enter the container
 
   $ docker exec -it <container id> /bin/bash
+
+#### join swarm testbed
+
+  docker swarm join --token SWMTKN-1-4dyah0opw3pes2sti57vew6o5xoca6l7zb94fyjpchbsrxb517-b3ahpcq8w9x678dr9son3sbtq 45.76.187.22:2377

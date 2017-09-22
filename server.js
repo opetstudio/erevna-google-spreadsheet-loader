@@ -17,6 +17,11 @@ app.get('/', (req, res) => {
 });
 app.get('/datalocationv2', (req, res) => {
   var datalocation = req.query.datalocation;
+  var job_loader_callback = function(data){
+    var dataJson = data.dataJson;
+    //hit ke erevna-mongodb-interface untuk simpan dataJson
+    console.log('dataJson==>', dataJson);
+  }
   erevna.gdocsync.execute([
         "-minrow=1",
         "-maxrow=5",
@@ -24,7 +29,7 @@ app.get('/datalocationv2', (req, res) => {
         "-gdoc=1PyMqH5ts4g-I_19q8awi09yL00iFk404RdtRTXX-OEE",
         "-storagekey=localstorage-locationv2",
         `-datalocation=${datalocation}`,
-  ], require('./service-account-creds.json'), job_loader.datalocationv2);
+  ], require('./service-account-creds.json'), job_loader.datalocationv2, job_loader_callback);
   res.send('Hello worldsss\n');
 });
 
