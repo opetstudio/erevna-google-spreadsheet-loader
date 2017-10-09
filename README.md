@@ -31,3 +31,17 @@ Nodejs application for loading data from gdoc to json file
   docker container stop <hash>           # Gracefully stop the specified container
 
   docker container kill <hash>         # Force shutdown of the specified container
+
+
+
+###deploy
+
+  deploy di mesin rayasem-backoffice
+
+###endpoint
+
+  - /loading-datalocation-from-google-spreadsheet?minrow=1&maxrow=100&
+
+    response:
+
+    {"status":true}
