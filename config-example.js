@@ -7,11 +7,11 @@ if(process.env.NODE_ENV=='development'){
     exports.database = {
       mongodb:{
           'host':'localhost',
-          'port':'27017',
+          'port':'xxxx',
           'database':'erevna',
           'username':'',
           'password':'',
-          'uri': 'mongodb://localhost:27017/erevna'
+          'uri': 'mongodb://localhost:xxxx/erevna'
       }
     };
     exports.elasticsearch = {
@@ -32,11 +32,11 @@ if(process.env.NODE_ENV=='staging'){
     exports.database = {
       mongodb:{
           'host':'localhost',
-          'port':'27017',
+          'port':'xxxx',
           'database':'erevna',
           'username':'',
           'password':'',
-          'uri': 'mongodb://localhost:27017/erevna'
+          'uri': 'mongodb://localhost:xxxx/erevna'
       }
     };
     exports.elasticsearch = {
@@ -57,11 +57,11 @@ if(process.env.NODE_ENV=='production'){
     exports.database = {
       mongodb:{
           'host':'localhost',
-          'port':'27017',
+          'port':'xxxx',
           'database':'erevna',
           'username':'',
           'password':'',
-          'uri': 'mongodb://localhost:27017/erevna'
+          'uri': 'mongodb://localhost:xxxx/erevna'
       }
     };
     exports.elasticsearch = {
@@ -85,7 +85,7 @@ if(process.env.NODE_ENV=='development-docker'){
     exports.database = {
       mongodb:{
           'host':'localhost',
-          'port':'27017',
+          'port':'xxxx',
           'database':'erevna',
           'username':'',
           'password':'',
@@ -110,7 +110,7 @@ if(process.env.NODE_ENV=='staging-docker'){
     exports.database = {
       mongodb:{
           'host':'localhost',
-          'port':'27017',
+          'port':'xxxx',
           'database':'erevna',
           'username':'',
           'password':'',
@@ -135,7 +135,7 @@ if(process.env.NODE_ENV=='production-docker'){
     exports.database = {
       mongodb:{
           'host':'localhost',
-          'port':'27017',
+          'port':'xxxx',
           'database':'erevna',
           'username':'',
           'password':'',
