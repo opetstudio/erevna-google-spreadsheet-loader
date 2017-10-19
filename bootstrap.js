@@ -1,10 +1,10 @@
 const _logger    = require('tracer').console();
 _logger.info('bootstrap invoked');
 
-var mongoose   = require('mongoose');
+// var mongoose   = require('mongoose');
 // var elasticsearch = require('elasticsearch');
-var _config = require('./config');
-require('./mongoose-connection');
+// var _config = require('./config');
+// require('./mongoose-connection');
 
 
 //database connectioin
@@ -14,4 +14,4 @@ require('./mongoose-connection');
 //mongoose.connection.once('open', function (callback) {console.log('mongoose success connect');});
 
 //startup elasticsearch connection
-// require('./es-connection');
+require('./es-connection');

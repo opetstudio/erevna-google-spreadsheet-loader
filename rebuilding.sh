@@ -9,4 +9,4 @@ docker build -t $imageName -f Dockerfile  .
 
 docker push $imageName
 
-docker stack deploy -c docker-compose.yml rayasem-vultr-web
+#docker stack deploy -c docker-compose.yml rayasem-vultr-web

@@ -36,11 +36,12 @@ Nodejs application for loading data from gdoc to json file
 
 ###deploy
 
-  deploy di mesin rayasem-backoffice
+  deploy di mesin rayasem-backoffice atau di mesin elasticsearch atau di mesin crawler
 
 ###endpoint
 
   - /loading-datalocation-from-google-spreadsheet?minrow=1&maxrow=100&
+  - /loading-datapropertytype-from-google-spreadsheet?minrow=1&maxrow=10&sheetnumber=0
 
     response:
 
